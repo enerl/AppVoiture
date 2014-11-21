@@ -13,10 +13,11 @@ namespace Presentation
 {
     public partial class FAjoutPersonne : Form
     {
-        private Personne unePersonne;
+        private Personne unePers;
         public FAjoutPersonne()
         {
             InitializeComponent();
+            unePers = unePersonne;
         }
 
         private void BTN_FAP_Fermer_Click(object sender, EventArgs e)
