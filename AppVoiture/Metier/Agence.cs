@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Metier
 {
-    class Agence
+    public class Agence
     {
         private List<Personne> lesPersonnes = new List<Personne>();
         private List<Voiture> parcVoitures = new List<Voiture>();
