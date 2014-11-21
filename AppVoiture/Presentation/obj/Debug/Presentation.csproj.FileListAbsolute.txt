@@ -20,3 +20,6 @@ C:\Users\enerl\Desktop\AppVoiture\Presentation\obj\Debug\Presentation.pdb
 M:\Eric\AppVoiture\AppVoiture\Presentation\bin\Debug\Presentation.exe.config
 M:\Eric\AppVoiture\AppVoiture\Presentation\obj\Debug\Presentation.exe
 M:\Eric\AppVoiture\AppVoiture\Presentation\obj\Debug\Presentation.pdb
+M:\faure\AppVoiture\AppVoiture\Presentation\bin\Debug\Presentation.exe.config
+M:\faure\AppVoiture\AppVoiture\Presentation\obj\Debug\Presentation.exe
+M:\faure\AppVoiture\AppVoiture\Presentation\obj\Debug\Presentation.pdb
