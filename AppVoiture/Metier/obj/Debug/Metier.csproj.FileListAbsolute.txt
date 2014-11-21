@@ -3,3 +3,6 @@ D:\AppVoiture\Metier\bin\Debug\Metier.pdb
 D:\AppVoiture\Metier\obj\Debug\Metier.csprojResolveAssemblyReference.cache
 D:\AppVoiture\Metier\obj\Debug\Metier.dll
 D:\AppVoiture\Metier\obj\Debug\Metier.pdb
+M:\Eric\AppVoiture\AppVoiture\Metier\obj\Debug\Metier.csprojResolveAssemblyReference.cache
+M:\Eric\AppVoiture\AppVoiture\Metier\obj\Debug\Metier.dll
+M:\Eric\AppVoiture\AppVoiture\Metier\obj\Debug\Metier.pdb
