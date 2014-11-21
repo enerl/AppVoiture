@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1F35AB36-5F2C-40AC-8976-75F31C76657D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Presentation</RootNamespace>
+    <AssemblyName>Presentation</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FAccueil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FAccueil.Designer.cs">
+      <DependentUpon>FAccueil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FAffichageDesPersonne.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FAffichageDesPersonne.Designer.cs">
+      <DependentUpon>FAffichageDesPersonne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FAffichageDesVoiture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FAffichageDesVoiture.Designer.cs">
+      <DependentUpon>FAffichageDesVoiture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FAjoutPersonne.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FAjoutPersonne.Designer.cs">
+      <DependentUpon>FAjoutPersonne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FAjoutVoiture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FAjoutVoiture.Designer.cs">
+      <DependentUpon>FAjoutVoiture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FLouerVoiture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FLouerVoiture.Designer.cs">
+      <DependentUpon>FLouerVoiture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRendreVoiture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRendreVoiture.Designer.cs">
+      <DependentUpon>FRendreVoiture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FSupprPersonne.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSupprPersonne.Designer.cs">
+      <DependentUpon>FSupprPersonne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FSupprVoiture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSupprVoiture.Designer.cs">
+      <DependentUpon>FSupprVoiture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FAccueil.resx">
+      <DependentUpon>FAccueil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FAffichageDesPersonne.resx">
+      <DependentUpon>FAffichageDesPersonne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FAffichageDesVoiture.resx">
+      <DependentUpon>FAffichageDesVoiture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FAjoutPersonne.resx">
+      <DependentUpon>FAjoutPersonne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FAjoutVoiture.resx">
+      <DependentUpon>FAjoutVoiture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FLouerVoiture.resx">
+      <DependentUpon>FLouerVoiture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRendreVoiture.resx">
+      <DependentUpon>FRendreVoiture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FSupprPersonne.resx">
+      <DependentUpon>FSupprPersonne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FSupprVoiture.resx">
+      <DependentUpon>FSupprVoiture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
