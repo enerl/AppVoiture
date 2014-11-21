@@ -19,53 +19,55 @@ namespace Presentation
         }
         Personne unePersonne;
         Voiture uneVoiture;
-        Agence uneAgence;
+        Agence uneAgence = new Agence();
         
         private void ajouterUneVoitureToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FAjoutVoiture unFAjoutV = new FAjoutVoiture();
+            Voiture uneVoiture = new Voiture();
+            FAjoutVoiture unFAjoutV = new FAjoutVoiture(uneVoiture);
             unFAjoutV.ShowDialog();        
         }
 
         private void supprimerUneVoitureToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FSupprVoiture unFsupprV = new FSupprVoiture();
+            FSupprVoiture unFsupprV = new FSupprVoiture(uneAgence);
             unFsupprV.ShowDialog();
         }
 
         private void ajouterUnePersonneToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FAjoutPersonne unFajoutP = new FAjoutPersonne();
+            Personne unePersonne = new Personne();
+            FAjoutPersonne unFajoutP = new FAjoutPersonne(unePersonne);
             unFajoutP.ShowDialog();
         }
 
         private void supprimerUnePersonneToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FSupprPersonne unFsupprP = new FSupprPersonne();
+            FSupprPersonne unFsupprP = new FSupprPersonne(uneAgence);
             unFsupprP.ShowDialog();
         }
 
         private void louerUneVoitureToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FLouerVoiture unFlouerV = new FLouerVoiture();
+            FLouerVoiture unFlouerV = new FLouerVoiture(uneAgence);
             unFlouerV.ShowDialog();
         }
 
         private void rendreUneVoitureToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FRendreVoiture unFrendreV= new FRendreVoiture();
+            FRendreVoiture unFrendreV = new FRendreVoiture(uneAgence);
             unFrendreV.ShowDialog();
         }
 
         private void toutesLesVoituresToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FAffichageDesVoiture unFAffichageV = new FAffichageDesVoiture();
+            FAffichageDesVoiture unFAffichageV = new FAffichageDesVoiture(uneAgence);
             unFAffichageV.ShowDialog();
         }
 
         private void toutesLesPersonnesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FAffichageDesPersonne unFAffichageP = new FAffichageDesPersonne();
+            FAffichageDesPersonne unFAffichageP = new FAffichageDesPersonne(uneAgence);
             unFAffichageP.ShowDialog();
         }
     }
