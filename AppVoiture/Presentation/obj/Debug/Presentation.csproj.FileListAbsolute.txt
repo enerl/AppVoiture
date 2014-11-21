@@ -23,3 +23,15 @@ M:\Eric\AppVoiture\AppVoiture\Presentation\obj\Debug\Presentation.pdb
 M:\faure\AppVoiture\AppVoiture\Presentation\bin\Debug\Presentation.exe.config
 M:\faure\AppVoiture\AppVoiture\Presentation\obj\Debug\Presentation.exe
 M:\faure\AppVoiture\AppVoiture\Presentation\obj\Debug\Presentation.pdb
+M:\faure\AppVoiture\AppVoiture\Presentation\obj\Debug\Presentation.csprojResolveAssemblyReference.cache
+M:\faure\AppVoiture\AppVoiture\Presentation\obj\Debug\Presentation.FAccueil.resources
+M:\faure\AppVoiture\AppVoiture\Presentation\obj\Debug\Presentation.FAffichageDesPersonne.resources
+M:\faure\AppVoiture\AppVoiture\Presentation\obj\Debug\Presentation.FAffichageDesVoiture.resources
+M:\faure\AppVoiture\AppVoiture\Presentation\obj\Debug\Presentation.FAjoutPersonne.resources
+M:\faure\AppVoiture\AppVoiture\Presentation\obj\Debug\Presentation.FAjoutVoiture.resources
+M:\faure\AppVoiture\AppVoiture\Presentation\obj\Debug\Presentation.FLouerVoiture.resources
+M:\faure\AppVoiture\AppVoiture\Presentation\obj\Debug\Presentation.FRendreVoiture.resources
+M:\faure\AppVoiture\AppVoiture\Presentation\obj\Debug\Presentation.FSupprPersonne.resources
+M:\faure\AppVoiture\AppVoiture\Presentation\obj\Debug\Presentation.FSupprVoiture.resources
+M:\faure\AppVoiture\AppVoiture\Presentation\obj\Debug\Presentation.Properties.Resources.resources
+M:\faure\AppVoiture\AppVoiture\Presentation\obj\Debug\Presentation.csproj.GenerateResource.Cache
