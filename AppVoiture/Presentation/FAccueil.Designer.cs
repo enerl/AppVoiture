@@ -125,7 +125,7 @@
             this.ajouterUneVoitureToolStripMenuItem,
             this.supprimerUneVoitureToolStripMenuItem});
             this.voituresToolStripMenuItem.Name = "voituresToolStripMenuItem";
-            this.voituresToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.voituresToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
             this.voituresToolStripMenuItem.Text = "Voitures";
             // 
             // ajouterUneVoitureToolStripMenuItem
@@ -148,7 +148,7 @@
             this.ajouterUnePersonneToolStripMenuItem,
             this.supprimerUnePersonneToolStripMenuItem});
             this.personnesToolStripMenuItem.Name = "personnesToolStripMenuItem";
-            this.personnesToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.personnesToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
             this.personnesToolStripMenuItem.Text = "Personnes";
             // 
             // ajouterUnePersonneToolStripMenuItem
@@ -171,7 +171,7 @@
             this.louerUneVoitureToolStripMenuItem,
             this.rendreUneVoitureToolStripMenuItem});
             this.locationsToolStripMenuItem.Name = "locationsToolStripMenuItem";
-            this.locationsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.locationsToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
             this.locationsToolStripMenuItem.Text = "Locations";
             // 
             // louerUneVoitureToolStripMenuItem
@@ -224,6 +224,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FAccueil";
             this.Text = "FAccueil";
+            this.Load += new System.EventHandler(this.FAccueil_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

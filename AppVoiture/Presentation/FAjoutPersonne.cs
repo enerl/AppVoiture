@@ -43,7 +43,7 @@ namespace Presentation
                 unePers.Prenom = TB_FAP_Prenom.Text;
                 unePers.Ville = TB_FAP_Ville.Text;
 
-                // AJout de la nouvelle personne dans la liste "lesPersonnes" de l'objet Agence
+                // Ajout de la nouvelle personne dans la liste "lesPersonnes" de l'objet Agence
                 uneAg.AjouterPersonne(unePers);
             }
         }

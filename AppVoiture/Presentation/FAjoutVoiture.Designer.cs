@@ -63,6 +63,7 @@
             this.BTN_FAV_Ajouter.TabIndex = 16;
             this.BTN_FAV_Ajouter.Text = "Ajouter";
             this.BTN_FAV_Ajouter.UseVisualStyleBackColor = true;
+            this.BTN_FAV_Ajouter.Click += new System.EventHandler(this.BTN_FAV_Ajouter_Click);
             // 
             // TB_FAV_DateMiseService
             // 
