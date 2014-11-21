@@ -35,7 +35,7 @@ namespace Metier
 
         // Constructeur
 
-        public Personne(string nom, string prenom, string ville)
+        public Personne()
         {
         }
         public Personne(string nom, string prenom, string ville)
