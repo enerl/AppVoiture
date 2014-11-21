@@ -52,6 +52,7 @@
             this.BTN_FAV_Fermer.TabIndex = 17;
             this.BTN_FAV_Fermer.Text = "Fermer";
             this.BTN_FAV_Fermer.UseVisualStyleBackColor = true;
+            this.BTN_FAV_Fermer.Click += new System.EventHandler(this.BTN_FAV_Fermer_Click);
             // 
             // BTN_FAV_Ajouter
             // 

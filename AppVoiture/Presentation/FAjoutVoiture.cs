@@ -26,5 +26,10 @@ namespace Presentation
         {
 
         }
+
+        private void BTN_FAV_Fermer_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -112,6 +112,7 @@
             this.BTN_FAP_Ajouter.TabIndex = 7;
             this.BTN_FAP_Ajouter.Text = "Ajouter";
             this.BTN_FAP_Ajouter.UseVisualStyleBackColor = true;
+            this.BTN_FAP_Ajouter.Click += new System.EventHandler(this.BTN_FAP_Ajouter_Click);
             // 
             // BTN_FAP_Fermer
             // 
@@ -122,6 +123,7 @@
             this.BTN_FAP_Fermer.TabIndex = 8;
             this.BTN_FAP_Fermer.Text = "Fermer";
             this.BTN_FAP_Fermer.UseVisualStyleBackColor = true;
+            this.BTN_FAP_Fermer.Click += new System.EventHandler(this.BTN_FAP_Fermer_Click);
             // 
             // FAjoutPersonne
             // 
