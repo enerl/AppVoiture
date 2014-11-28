@@ -188,6 +188,7 @@
             this.Controls.Add(this.label1);
             this.Name = "FAjoutVoiture";
             this.Text = "FAjoutVoiture";
+            this.Load += new System.EventHandler(this.FAjoutVoiture_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

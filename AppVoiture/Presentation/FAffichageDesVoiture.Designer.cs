@@ -35,6 +35,12 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.DGV_FADV = new System.Windows.Forms.DataGridView();
+            this.nom = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.immat = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.puissance = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dateServ = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.categ = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.louee = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.DGV_FADV)).BeginInit();
             this.SuspendLayout();
             // 
@@ -97,10 +103,47 @@
             // DGV_FADV
             // 
             this.DGV_FADV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DGV_FADV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.nom,
+            this.immat,
+            this.puissance,
+            this.dateServ,
+            this.categ,
+            this.louee});
             this.DGV_FADV.Location = new System.Drawing.Point(16, 107);
             this.DGV_FADV.Name = "DGV_FADV";
-            this.DGV_FADV.Size = new System.Drawing.Size(765, 245);
+            this.DGV_FADV.Size = new System.Drawing.Size(673, 245);
             this.DGV_FADV.TabIndex = 27;
+            // 
+            // nom
+            // 
+            this.nom.HeaderText = "Nom";
+            this.nom.Name = "nom";
+            // 
+            // immat
+            // 
+            this.immat.HeaderText = "Immatriculation";
+            this.immat.Name = "immat";
+            // 
+            // puissance
+            // 
+            this.puissance.HeaderText = "Puissance";
+            this.puissance.Name = "puissance";
+            // 
+            // dateServ
+            // 
+            this.dateServ.HeaderText = "Date mise en service";
+            this.dateServ.Name = "dateServ";
+            // 
+            // categ
+            // 
+            this.categ.HeaderText = "Catégorie";
+            this.categ.Name = "categ";
+            // 
+            // louee
+            // 
+            this.louee.HeaderText = "Louée";
+            this.louee.Name = "louee";
             // 
             // FAffichageDesVoiture
             // 
@@ -117,6 +160,7 @@
             this.Controls.Add(this.label1);
             this.Name = "FAffichageDesVoiture";
             this.Text = "FAffichageDesVoiture";
+            this.Load += new System.EventHandler(this.FAffichageDesVoiture_Load);
             ((System.ComponentModel.ISupportInitialize)(this.DGV_FADV)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -132,5 +176,11 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView DGV_FADV;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nom;
+        private System.Windows.Forms.DataGridViewTextBoxColumn immat;
+        private System.Windows.Forms.DataGridViewTextBoxColumn puissance;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dateServ;
+        private System.Windows.Forms.DataGridViewTextBoxColumn categ;
+        private System.Windows.Forms.DataGridViewTextBoxColumn louee;
     }
 }
