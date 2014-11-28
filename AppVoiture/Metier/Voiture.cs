@@ -8,6 +8,7 @@ namespace Metier
 {
     public class Voiture
     {
+        // Attributs
         private string categorie;
         private int puissance;
         private string dateMiseService;
@@ -16,6 +17,7 @@ namespace Metier
         private string loueur;
         private string nom;
 
+        // Accesseurs & Mutateurs
         public string Categorie
         {
             get { return categorie; }
@@ -64,5 +66,21 @@ namespace Metier
             set { puissance = value; }
         }
 
+        // Constructeur
+        public Voiture()
+        {
+
+        }
+        public Voiture(string categorie,int puissance,string date,string estLouee,
+            string immatriculation, string loueur, string nom)
+        {
+            this.categorie = categorie;
+            this.puissance = puissance;
+            this.dateMiseService = date;
+            this.estLouee = estLouee;
+            this.immatriculation = immatriculation;
+            this.loueur = loueur;
+            this.nom = nom;
+        }
     }
 }
