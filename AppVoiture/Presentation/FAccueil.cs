@@ -30,7 +30,7 @@ namespace Presentation
 
         private void supprimerUneVoitureToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FSupprVoiture unFsupprV = new FSupprVoiture(uneAgence, uneVoiture);
+            FSupprVoiture unFsupprV = new FSupprVoiture(uneAgence);
             unFsupprV.ShowDialog();
         }
 
