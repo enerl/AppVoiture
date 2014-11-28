@@ -45,6 +45,7 @@ namespace Presentation
 
                 // Ajout de la nouvelle personne dans la liste "lesPersonnes" de l'objet Agence
                 uneAg.AjouterPersonne(unePers);
+                this.Close();
             }
         }
     }
