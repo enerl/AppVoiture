@@ -30,7 +30,7 @@ namespace Presentation
 
         private void supprimerUneVoitureToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FSupprVoiture unFsupprV = new FSupprVoiture(uneAgence);
+            FSupprVoiture unFsupprV = new FSupprVoiture(uneAgence, uneVoiture);
             unFsupprV.ShowDialog();
         }
 
@@ -43,7 +43,7 @@ namespace Presentation
 
         private void supprimerUnePersonneToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FSupprPersonne unFsupprP = new FSupprPersonne(uneAgence);
+            FSupprPersonne unFsupprP = new FSupprPersonne(uneAgence, unePersonne);
             unFsupprP.ShowDialog();
         }
 

@@ -50,6 +50,7 @@
             this.BTN_FSP_Fermer.TabIndex = 17;
             this.BTN_FSP_Fermer.Text = "Fermer";
             this.BTN_FSP_Fermer.UseVisualStyleBackColor = true;
+            this.BTN_FSP_Fermer.Click += new System.EventHandler(this.BTN_FSP_Fermer_Click);
             // 
             // BTN_FSP_Supprimer
             // 
@@ -60,6 +61,7 @@
             this.BTN_FSP_Supprimer.TabIndex = 16;
             this.BTN_FSP_Supprimer.Text = "Supprimer";
             this.BTN_FSP_Supprimer.UseVisualStyleBackColor = true;
+            this.BTN_FSP_Supprimer.Click += new System.EventHandler(this.BTN_FSP_Supprimer_Click);
             // 
             // TB_FSP_Prenom
             // 
@@ -132,6 +134,7 @@
             this.CB_FSP_Personne.Name = "CB_FSP_Personne";
             this.CB_FSP_Personne.Size = new System.Drawing.Size(187, 21);
             this.CB_FSP_Personne.TabIndex = 18;
+            this.CB_FSP_Personne.SelectedIndexChanged += new System.EventHandler(this.CB_FSP_Personne_SelectedIndexChanged);
             // 
             // label6
             // 
