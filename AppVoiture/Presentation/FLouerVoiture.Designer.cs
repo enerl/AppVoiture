@@ -118,6 +118,7 @@
             this.Controls.Add(this.label1);
             this.Name = "FLouerVoiture";
             this.Text = "FLouerVoiture";
+            this.Load += new System.EventHandler(this.FLouerVoiture_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

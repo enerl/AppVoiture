@@ -32,8 +32,14 @@ namespace Presentation
             {
                 CB_FADV_Voiture.Items.Add(voiture).ToString();
 
-                
+                DGV_FADV.Rows.Add(voiture.Nom, voiture.Immatriculation, voiture.Puissance, voiture.DateMiseService, voiture.Categorie, voiture.EstLouee);
+
             }
+        }
+
+        private void BTN_FADV_Fermer_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
