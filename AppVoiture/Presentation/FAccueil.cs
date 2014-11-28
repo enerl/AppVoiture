@@ -23,8 +23,8 @@ namespace Presentation
         
         private void ajouterUneVoitureToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           uneVoiture = new Voiture();
-            FAjoutVoiture unFAjoutV = new FAjoutVoiture(uneVoiture);
+            uneVoiture = new Voiture();
+            FAjoutVoiture unFAjoutV = new FAjoutVoiture(uneVoiture,uneAgence);
             unFAjoutV.ShowDialog();        
         }
 
@@ -37,7 +37,7 @@ namespace Presentation
         private void ajouterUnePersonneToolStripMenuItem_Click(object sender, EventArgs e)
         {
             unePersonne = new Personne();
-            FAjoutPersonne unFajoutP = new FAjoutPersonne(unePersonne);
+            FAjoutPersonne unFajoutP = new FAjoutPersonne(unePersonne,uneAgence);
             unFajoutP.ShowDialog();
         }
 
@@ -69,6 +69,11 @@ namespace Presentation
         {
             FAffichageDesPersonne unFAffichageP = new FAffichageDesPersonne(uneAgence);
             unFAffichageP.ShowDialog();
+        }
+
+        private void FAccueil_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -24,5 +24,16 @@ namespace Presentation
             agence = ag;
             InitializeComponent();
         }
+
+        private void FAffichageDesVoiture_Load(object sender, EventArgs e)
+        {
+            List<Voiture> voitures = agence.ParcVoitures;
+            foreach (Voiture voiture in voitures)
+            {
+                CB_FADV_Voiture.Items.Add(voiture).ToString();
+
+                
+            }
+        }
     }
 }

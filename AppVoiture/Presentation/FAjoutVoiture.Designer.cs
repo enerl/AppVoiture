@@ -52,6 +52,7 @@
             this.BTN_FAV_Fermer.TabIndex = 17;
             this.BTN_FAV_Fermer.Text = "Fermer";
             this.BTN_FAV_Fermer.UseVisualStyleBackColor = true;
+            this.BTN_FAV_Fermer.Click += new System.EventHandler(this.BTN_FAV_Fermer_Click);
             // 
             // BTN_FAV_Ajouter
             // 
@@ -62,6 +63,7 @@
             this.BTN_FAV_Ajouter.TabIndex = 16;
             this.BTN_FAV_Ajouter.Text = "Ajouter";
             this.BTN_FAV_Ajouter.UseVisualStyleBackColor = true;
+            this.BTN_FAV_Ajouter.Click += new System.EventHandler(this.BTN_FAV_Ajouter_Click);
             // 
             // TB_FAV_DateMiseService
             // 
