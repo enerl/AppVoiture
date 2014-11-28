@@ -24,6 +24,21 @@ namespace Presentation
             agence = ag;
             InitializeComponent();
         }
+
+        private void FLouerVoiture_Load(object sender, EventArgs e)
+        {
+            List<Personne> lesPersonnes = agence.LesPersonnes;
+            List<Voiture> lesVoitures = agence.ParcVoitures;
+
+            foreach(Personne uneP in lesPersonnes)
+            {
+                CB_FLV_Personne.Items.Add(uneP).ToString();
+            }
+
+            foreach (Voiture uneV in lesVoitures)            {
+                CB_FLV_Personne.Items.Add(uneV).ToString();
+            }
+        }
     }
 
 }

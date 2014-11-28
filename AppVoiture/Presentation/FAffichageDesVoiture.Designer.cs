@@ -69,6 +69,7 @@
             this.BTN_FADV_Fermer.TabIndex = 24;
             this.BTN_FADV_Fermer.Text = "Fermer";
             this.BTN_FADV_Fermer.UseVisualStyleBackColor = true;
+            this.BTN_FADV_Fermer.Click += new System.EventHandler(this.BTN_FADV_Fermer_Click);
             // 
             // label3
             // 
