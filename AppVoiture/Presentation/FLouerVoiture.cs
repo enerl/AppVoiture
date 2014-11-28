@@ -7,14 +7,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Metier;
 
 namespace Presentation
 {
     public partial class FLouerVoiture : Form
     {
+        private Agence agence;
         public FLouerVoiture()
         {
             InitializeComponent();
         }
+
+        public FLouerVoiture(Agence ag)
+        {
+            agence = ag;
+            InitializeComponent();
+        }
     }
+
 }
