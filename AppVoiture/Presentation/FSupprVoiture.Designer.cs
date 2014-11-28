@@ -90,6 +90,7 @@
             this.BTN_FSV_Fermer.TabIndex = 32;
             this.BTN_FSV_Fermer.Text = "Fermer";
             this.BTN_FSV_Fermer.UseVisualStyleBackColor = true;
+            this.BTN_FSV_Fermer.Click += new System.EventHandler(this.BTN_FSV_Fermer_Click);
             // 
             // BTN_FSV_Supprimer
             // 
@@ -98,8 +99,9 @@
             this.BTN_FSV_Supprimer.Name = "BTN_FSV_Supprimer";
             this.BTN_FSV_Supprimer.Size = new System.Drawing.Size(90, 33);
             this.BTN_FSV_Supprimer.TabIndex = 31;
-            this.BTN_FSV_Supprimer.Text = "Ajouter";
+            this.BTN_FSV_Supprimer.Text = "Supprimer";
             this.BTN_FSV_Supprimer.UseVisualStyleBackColor = true;
+            this.BTN_FSV_Supprimer.Click += new System.EventHandler(this.BTN_FSV_Supprimer_Click);
             // 
             // TB_FSV_DateMiseService
             // 

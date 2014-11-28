@@ -38,7 +38,7 @@ namespace Presentation
 
         private void BTN_FAV_Fermer_Click(object sender, EventArgs e)
         {
-            Close();
+            this.Close();
         }
 
         private void BTN_FAV_Ajouter_Click(object sender, EventArgs e)

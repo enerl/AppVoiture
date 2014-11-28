@@ -24,6 +24,11 @@ namespace Presentation
             agence = ag;
             InitializeComponent();
         }
+
+        private void BTN_FLV_Fermer_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 
 }

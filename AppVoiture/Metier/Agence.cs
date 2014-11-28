@@ -41,6 +41,15 @@ namespace Metier
             ParcVoitures.Add(voiture);
 
         }
+        public void SupprimerPersonne(Personne pers)
+        {
+            LesPersonnes.Remove(pers);
+        }
+
+        public void SupprimerVoiture(Voiture voiture)
+        {
+            ParcVoitures.Remove(voiture);
+        }
 
     }
 }

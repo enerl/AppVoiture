@@ -52,6 +52,7 @@
             this.BTN_FRV_Fermer.TabIndex = 24;
             this.BTN_FRV_Fermer.Text = "Fermer";
             this.BTN_FRV_Fermer.UseVisualStyleBackColor = true;
+            this.BTN_FRV_Fermer.Click += new System.EventHandler(this.BTN_FRV_Fermer_Click);
             // 
             // BTN_FRV_Valider
             // 

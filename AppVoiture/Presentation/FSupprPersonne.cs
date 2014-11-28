@@ -19,10 +19,24 @@ namespace Presentation
             InitializeComponent();
         }
 
-        public FSupprPersonne(Agence ag)
+        public FSupprPersonne(Agence ag, Personne unePersonne)
         {
             agence = ag;
             InitializeComponent();
+        }
+
+        private void BTN_FSP_Supprimer_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void BTN_FSP_Fermer_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void CB_FSP_Personne_SelectedIndexChanged(object sender, EventArgs e)
+        {
         }
     }
 }

@@ -46,6 +46,7 @@
             this.BTN_FLV_Fermer.TabIndex = 17;
             this.BTN_FLV_Fermer.Text = "Fermer";
             this.BTN_FLV_Fermer.UseVisualStyleBackColor = true;
+            this.BTN_FLV_Fermer.Click += new System.EventHandler(this.BTN_FLV_Fermer_Click);
             // 
             // BTN_FLV_Valider
             // 
