@@ -35,3 +35,4 @@ M:\faure\AppVoiture\AppVoiture\Presentation\obj\Debug\Presentation.FSupprPersonn
 M:\faure\AppVoiture\AppVoiture\Presentation\obj\Debug\Presentation.FSupprVoiture.resources
 M:\faure\AppVoiture\AppVoiture\Presentation\obj\Debug\Presentation.Properties.Resources.resources
 M:\faure\AppVoiture\AppVoiture\Presentation\obj\Debug\Presentation.csproj.GenerateResource.Cache
+M:\nbert\AppVoiture\AppVoiture\Presentation\bin\Debug\Presentation.exe.config
