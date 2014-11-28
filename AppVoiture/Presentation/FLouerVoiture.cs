@@ -36,8 +36,25 @@ namespace Presentation
             }
 
             foreach (Voiture uneV in lesVoitures)            {
-                CB_FLV_Personne.Items.Add(uneV).ToString();
+                CB_FLV_Voiture.Items.Add(uneV.Nom);
             }
+        }
+
+        private void BTN_FLV_Valider_Click(object sender, EventArgs e)
+        {
+            String stringVoiture = CB_FLV_Voiture.SelectedText;
+            agence.LouerVoiture(stringVoiture);
+           
+
+            this.Close();
+
+
+            
+        }
+
+        private void CB_FLV_Voiture_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 

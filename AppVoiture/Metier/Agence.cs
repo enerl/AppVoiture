@@ -42,5 +42,32 @@ namespace Metier
 
         }
 
+        public Voiture RechercherVoiture(String nom)
+        {
+            Voiture voiture=null;
+            foreach (Voiture voit in ParcVoitures)
+            {
+                if (voit.Nom==nom)
+                {
+                    voiture = voit;
+                }
+                
+            }
+
+            return voiture;
+        }
+
+        public void LouerVoiture(String nom)
+        {
+            foreach (Voiture voit in ParcVoitures)
+            {
+                if (voit.Nom == nom)
+                {
+                    voit.EstLouee="Oui";
+                }
+
+            }
+        }
+
     }
 }

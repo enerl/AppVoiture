@@ -56,6 +56,7 @@
             this.BTN_FLV_Valider.TabIndex = 16;
             this.BTN_FLV_Valider.Text = "Valider";
             this.BTN_FLV_Valider.UseVisualStyleBackColor = true;
+            this.BTN_FLV_Valider.Click += new System.EventHandler(this.BTN_FLV_Valider_Click);
             // 
             // label3
             // 
@@ -94,6 +95,7 @@
             this.CB_FLV_Voiture.Name = "CB_FLV_Voiture";
             this.CB_FLV_Voiture.Size = new System.Drawing.Size(195, 21);
             this.CB_FLV_Voiture.TabIndex = 18;
+            this.CB_FLV_Voiture.SelectedIndexChanged += new System.EventHandler(this.CB_FLV_Voiture_SelectedIndexChanged);
             // 
             // CB_FLV_Personne
             // 

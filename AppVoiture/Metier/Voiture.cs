@@ -85,7 +85,9 @@ namespace Metier
 
         override public String ToString()
         {
-            return nom;
+            return Nom;
         }
+
+        
     }
 }
