@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 using Metier;
+using System.Runtime;
+using System.Runtime.Serialization.Formatters.Binary;
 
 
 namespace Utilitaire
@@ -51,7 +53,7 @@ namespace Utilitaire
                     //On formate le flux en binaire
                     fs = new BinaryFormatter();
                     //On vide la collection avant de récupérer le contenu désérialiser
-                    uneAgence = (Agence)fs.Deserialize(unFlux);
+       //WARNING !!!            //uneAgence = (Agence)fs.Deserialize(unFlux);
                     //On affiche un message indiquant le succès de la désérialisation
                     MessageBox.Show("La désérialisation s'est terminée avec succès !", "Désérialisation finie", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
