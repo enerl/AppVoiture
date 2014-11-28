@@ -61,13 +61,13 @@ namespace Presentation
 
         private void toutesLesVoituresToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FAffichageDesVoiture unFAffichageV = new FAffichageDesVoiture(uneAgence);
+            FAffichageDesVoitures unFAffichageV = new FAffichageDesVoitures(uneAgence);
             unFAffichageV.ShowDialog();
         }
 
         private void toutesLesPersonnesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FAffichageDesPersonne unFAffichageP = new FAffichageDesPersonne(uneAgence);
+            FAffichageDesPersonnes unFAffichageP = new FAffichageDesPersonnes(uneAgence);
             unFAffichageP.ShowDialog();
         }
 

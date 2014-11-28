@@ -50,17 +50,17 @@
     <Compile Include="FAccueil.Designer.cs">
       <DependentUpon>FAccueil.cs</DependentUpon>
     </Compile>
-    <Compile Include="FAffichageDesPersonne.cs">
+    <Compile Include="FAffichageDesPersonnes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FAffichageDesPersonne.Designer.cs">
-      <DependentUpon>FAffichageDesPersonne.cs</DependentUpon>
+    <Compile Include="FAffichageDesPersonnes.Designer.cs">
+      <DependentUpon>FAffichageDesPersonnes.cs</DependentUpon>
     </Compile>
-    <Compile Include="FAffichageDesVoiture.cs">
+    <Compile Include="FAffichageDesVoitures.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FAffichageDesVoiture.Designer.cs">
-      <DependentUpon>FAffichageDesVoiture.cs</DependentUpon>
+    <Compile Include="FAffichageDesVoitures.Designer.cs">
+      <DependentUpon>FAffichageDesVoitures.cs</DependentUpon>
     </Compile>
     <Compile Include="FAjoutPersonne.cs">
       <SubType>Form</SubType>
@@ -103,11 +103,11 @@
     <EmbeddedResource Include="FAccueil.resx">
       <DependentUpon>FAccueil.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FAffichageDesPersonne.resx">
-      <DependentUpon>FAffichageDesPersonne.cs</DependentUpon>
+    <EmbeddedResource Include="FAffichageDesPersonnes.resx">
+      <DependentUpon>FAffichageDesPersonnes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FAffichageDesVoiture.resx">
-      <DependentUpon>FAffichageDesVoiture.cs</DependentUpon>
+    <EmbeddedResource Include="FAffichageDesVoitures.resx">
+      <DependentUpon>FAffichageDesVoitures.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FAjoutPersonne.resx">
       <DependentUpon>FAjoutPersonne.cs</DependentUpon>
