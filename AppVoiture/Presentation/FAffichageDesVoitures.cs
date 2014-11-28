@@ -11,15 +11,15 @@ using Metier;
 
 namespace Presentation
 {
-    public partial class FAffichageDesVoiture : Form
+    public partial class FAffichageDesVoitures : Form
     {
         private Agence agence;
-        public FAffichageDesVoiture()
+        public FAffichageDesVoitures()
         {
             InitializeComponent();
         }
 
-        public FAffichageDesVoiture(Agence ag)
+        public FAffichageDesVoitures(Agence ag)
         {
             agence = ag;
             InitializeComponent();

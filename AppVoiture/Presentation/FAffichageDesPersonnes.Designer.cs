@@ -1,6 +1,6 @@
 ﻿namespace Presentation
 {
-    partial class FAffichageDesPersonne
+    partial class FAffichageDesPersonnes
     {
         /// <summary>
         /// Required designer variable.
