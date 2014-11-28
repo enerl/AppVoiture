@@ -52,10 +52,12 @@ namespace Presentation
                 uneVoit.DateMiseService = TB_FAV_DateMiseService.Text;
                 uneVoit.Immatriculation = TB_FAV_Immatriculation.Text;
                 uneVoit.Nom = TB_FAV_Nom.Text;
-                uneVoit.Puissance = TB_FAV_Puissance.Text;
+                uneVoit.Puissance = Int32.Parse(TB_FAV_Puissance.Text);
 
                 // Ajout de la nouvelle voiture dans la liste "parcVoitures" de l'objet Agence
                 uneAg.AjouterVoiture(uneVoit);
+                this.Close();
+
 
             }
         }

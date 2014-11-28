@@ -82,5 +82,10 @@ namespace Metier
             this.loueur = loueur;
             this.nom = nom;
         }
+
+        override public String ToString()
+        {
+            return nom;
+        }
     }
 }

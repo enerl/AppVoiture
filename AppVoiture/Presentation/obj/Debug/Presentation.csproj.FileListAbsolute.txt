@@ -47,3 +47,7 @@ M:\Eric\AppVoiture\AppVoiture\Presentation\obj\Debug\Presentation.FSupprPersonne
 M:\Eric\AppVoiture\AppVoiture\Presentation\obj\Debug\Presentation.FSupprVoiture.resources
 M:\Eric\AppVoiture\AppVoiture\Presentation\obj\Debug\Presentation.Properties.Resources.resources
 M:\Eric\AppVoiture\AppVoiture\Presentation\obj\Debug\Presentation.csproj.GenerateResource.Cache
+M:\faure\AppVoiture\AppVoiture\Presentation\bin\Debug\Presentation.exe
+M:\faure\AppVoiture\AppVoiture\Presentation\bin\Debug\Presentation.pdb
+M:\faure\AppVoiture\AppVoiture\Presentation\bin\Debug\Metier.dll
+M:\faure\AppVoiture\AppVoiture\Presentation\bin\Debug\Metier.pdb
